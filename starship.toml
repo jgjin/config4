@@ -1,0 +1,14 @@
+format = """
+$username\
+$hostname\
+$directory\
+$line_break\
+$character"""
+
+[directory]
+truncation_length = 6
+truncate_to_repo = false
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold green)"

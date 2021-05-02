@@ -1,0 +1,10 @@
+Aloxaf/fzf-tab
+MichaelAquilina/zsh-auto-notify
+MikeDacre/careful_rm
+Tarrasch/zsh-bd
+desyncr/auto-ls
+hcgraf/zsh-sudo
+hlissner/zsh-autopair
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+zsh-users/zsh-syntax-highlighting
