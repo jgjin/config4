@@ -20,8 +20,9 @@ This function should only modify configuration layer settings."
      git
      helm
      latex
-     (lsp :variables
-          lsp-headerline-breadcrumb-enable nil)
+     ;; (lsp :variables
+     ;;      lsp-headerline-breadcrumb-enable nil
+     ;;      lsp-rust-server 'rust-analyzer)
      markdown
      multiple-cursors
      org
@@ -150,7 +151,6 @@ configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first.")
 
-
 (defun dotspacemacs/user-load ()
   "Library to load while dumping.
 This function is called only while dumping Spacemacs configuration. You can
@@ -164,6 +164,8 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  (exec-path-from-shell-initialize)
+
   (add-hook 'smartparens-enabled-hook #'evil-smartparens-mode)
 
   (global-company-mode)
