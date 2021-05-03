@@ -35,6 +35,8 @@ This function should only modify configuration layer settings."
             shell-default-term-shell "/bin/zsh"
             shell-enable-smart-eshell t)
      syntax-checking
+     (treemacs :variables
+               treemacs-use-icons-dired nil)
      typescript
      )
    dotspacemacs-additional-packages
