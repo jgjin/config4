@@ -31,3 +31,6 @@ source ~/.zoxide.zsh
 
 # Aliases
 source ~/.aliases.zsh
+
+# Conda init
+source ~/.conda.zsh

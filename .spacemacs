@@ -19,6 +19,7 @@ This function should only modify configuration layer settings."
      evil-snipe
      git
      helm
+     html
      latex
      ;; (lsp :variables
      ;;      lsp-headerline-breadcrumb-enable nil
@@ -26,6 +27,7 @@ This function should only modify configuration layer settings."
      markdown
      multiple-cursors
      org
+     protobuf
      python
      rust
      (shell :variables
@@ -38,6 +40,7 @@ This function should only modify configuration layer settings."
      (treemacs :variables
                treemacs-use-icons-dired nil)
      typescript
+     yaml
      )
    dotspacemacs-additional-packages
    '(
@@ -181,7 +184,3 @@ before packages are loaded."
   (global-set-key (kbd "M-z") #'zzz-up-to-char)
   (global-set-key (kbd "C-M-z") #'zzz-to-char)
   )
-
-
-;; Do not write anything past this comment. This is where Emacs will
-;; auto-generate custom variable definitions.
