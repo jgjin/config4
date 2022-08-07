@@ -1,9 +1,10 @@
-Aloxaf/fzf-tab
-MikeDacre/careful_rm
 Tarrasch/zsh-bd
 desyncr/auto-ls
 hcgraf/zsh-sudo
 hlissner/zsh-autopair
+mattmc3/zsh-safe-rm
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
 zsh-users/zsh-syntax-highlighting
+
+jeffreytse/zsh-vi-mode

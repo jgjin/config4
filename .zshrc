@@ -17,9 +17,6 @@ compinit
 # Environment variables
 source ~/.variables.zsh
 
-# Plugins
-source ~/.plugins.zsh
-
 # Functions
 source ~/.functions.zsh
 
@@ -29,8 +26,12 @@ source ~/.starship.zsh
 # Generated with zoxide init zsh
 source ~/.zoxide.zsh
 
+# Generated with https://github.com/mattmc3/antidote antidote bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.zsh
+source ~/.zsh_plugins.zsh
+
 # Aliases
 source ~/.aliases.zsh
 
+
 # Conda init
-source ~/.conda.zsh
+# source ~/.conda.zsh
